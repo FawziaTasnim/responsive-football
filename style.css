@@ -139,17 +139,20 @@ body{
 .fixture{
     padding-left: 100px;
 }
-.fixture img{
+
+.list{
+    border: 10px solid rgb(85, 84, 84);
+    border-radius: 5px;
     width: 600px;
-    height: 315px;
-    
-}
-.fixture-link{
-    text-decoration: none;
-    color: white;
-    background-color:#E02C6D;
-    padding: 10px 24px;
-    
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 20px;
+    overflow-y: scroll;
+    color: rgb(85, 84, 84);
+
+
 }
 .extra{
     display: flex;
@@ -200,4 +203,80 @@ footer p{
 
 
 
+@media screen and (max-width:700px) {
 
+    header{
+        width: 1500px;
+        height: 1500px;
+    }
+    header img{ 
+        margin-top: 700px;
+        padding-right: 700px;
+    
+        
+    }
+    header .name{
+        height: 400px;
+    }
+    
+    .players{
+        display: block;
+        justify-content: center;
+    
+    }
+    .player{
+        width: 100%; 
+        margin: 0;
+        
+        
+    }
+    .player img{
+        width: 90%;
+        height: 800px;
+        padding-left: 50px;
+        padding-top: 50px;
+    
+    }
+    .about-player{
+        font-size: 50px;
+    }
+    .highlights{
+        display: block;
+        width: 100%;
+    }
+    .extra{
+        display: block;
+    }
+    .details{
+        width: 1050px;
+        font-size: 50px;
+    }
+    .match img{
+        width: 1050px;
+        height: 800px;
+        margin-left: 100px;
+    }
+    .icons{
+        display: flex;
+    }
+    footer p{
+        display: inline-flex;
+    }
+    .list{
+        width: 900px;
+        height: 400px;
+        margin-left: 185px;
+        font-size: 50px;
+        padding-left: 100px;
+        background-color: rgba(172, 255, 47, 0.5);
+    }
+    .youtube{
+
+        width: 1000px;
+        height: 400px;
+        margin-left: 350px;    
+
+    }
+
+    
+}
