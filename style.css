@@ -141,7 +141,7 @@ body{
 }
 
 .list{
-    border: 10px solid rgb(85, 84, 84);
+    border: 10px solid rgb(95, 152, 179);
     border-radius: 5px;
     width: 600px;
     height: 300px;
@@ -151,6 +151,7 @@ body{
     font-size: 20px;
     overflow-y: scroll;
     color: rgb(85, 84, 84);
+    background-color: rgba(166, 255, 31, 0.24);
 
 
 }
@@ -196,12 +197,13 @@ body{
 }
 
 /* Footer style */
+
 footer p{
-    margin-left: 632px;
-    margin-right: 638px;
+    padding-left: 625px;
+    width: 400px;
 }
 
-
+/* media query style */
 
 @media screen and (max-width:700px) {
 
@@ -226,7 +228,7 @@ footer p{
     }
     .player{
         width: 100%; 
-        margin: 0;
+        margin: 0; 
         
         
     }
